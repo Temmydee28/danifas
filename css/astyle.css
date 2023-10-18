@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=PT+Serif&family=Raleway:wght@200;300&display=swap');
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'PT Serif', serif;
+  /* font-family: 'Raleway', sans-serif; */
+  width: 100%;
+  background-color: rgb(249, 232, 210);
+}
+
+
+/****** ELEMENTS CSS ******/
+
+h5 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  height: 80dvh;
+  object-fit: cover;
+}
+
+h2 {
+  font-weight: bolder;
+  line-height: 2rem;
+
+}
+
+
+/******** CLASS STYLE ********/
+
+.dropbtn {
+
+  color: rgb(61, 53, 53);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 7px 2px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #5a5e03;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: rgb(14, 9, 42);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #e0c61d;
+  height: 5px;
+  border-radius: 40px;
+}
+
+.hr {
+  width: 30px;
+  height: 7px;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  padding-top: 30px;
+  color: #ff0000;
+
+}
+
+.nav {
+  background-color: rgb(248, 213, 124);
+}
+
+.nav {
+  margin: auto;
+  padding: auto;
+}
+
+#danifaslogo2 {
+  width: 180px;
+  height: 20dvh;
+}
+
+.row {
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.number {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.address {
+  padding-top: 20px;
+}
+
+
+.nav-link {
+  padding: 5px;
+}
+
+#logo {
+  width: 180px;
+  height: 20dvh;
+}
+
+.smallnav {
+  
+  height: 169px;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(240, 200, 98);
+}
+/****** SECTION2 ******/
+
+
+#carouselExampleSlidesOnly {
+  width: 100%;
+  height: max-content;
+
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 200px;
+}
+
+.btn {
+  background-color: bisque;
+}
+
+.hr2 {
+  width: 300px;
+  height: 5px;
+  margin: auto;
+  border-style: inset;
+  border-width: 1px;
+
+  background: black;
+  border-top: 10px solid #000000;
+
+  background-color: #000000;
+
+}
+
+
+
+
+/****** SECTION 3 ******/ 
+
+
+.heading1 {
+  text-align: center;
+  line-height: 3rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.card-title {
+  font-family: cursive;
+  color: aliceblue;
+  text-align: center;
+}
+.cardsection2 {
+  padding: 40px;
+  position: relative;
+  border: none;
+  margin: auto;
+  background-color: rgb(249, 205, 92);
+}
+
+.card-img-overlay {
+
+  padding: 100px;
+  margin: auto;
+  position: absolute;
+  top: 120px;
+}
+
+
+
+  /****** SECTION 4 ******/
+
+
+.card-title3 {
+  padding: 70px;
+  line-height: 3rem;
+  color: #5a5e03;
+  text-align: left;
+  font-family: 'PT Serif', serif;
+}
+
+.card-text3 {
+  line-height: 2.5rem;
+  font-size: 20px;
+  padding: 70px;
+  padding-top: 10px;
+}
+
+
+
+.card4 {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+.section4 {
+  padding-top: 100px;
+  height: 100dvh;
+}
+
+
+
+.card4 {
+
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+#imgCard4 {
+  width: 100%;
+  height: 80dvh;
+  object-fit: cover;
+}
+
+/****** SECTION 5 ******/
+.section5{
+ height: auto;
+}
+.row3 {
+  padding-bottom: 0px;
+}
+
+.card3 {
+  border: none;
+  padding: 0px;
+  margin: auto;
+  top: -200px;
+  height: auto;
+  background-color: beige;
+}
+
+#imgCard3 {
+  width: 100%;
+  height: 150dvh;
+  padding: 0px;
+}
+
+/* SECTION 6 */
+
+
+
+#imgCard6{
+  width: 100%;
+  height: 40dvb;
+  padding: 13px;
+  
+}
+.card6{
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.col6{
+
+padding-right:30px;
+
+
+}
+
+/* SECTION 7 */
+
+.imgCard7{
+
+
+  width: 50%;
+  
+
+}
+
+
+/******* MEDIA QUERY ******/
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: rgb(241, 238, 196);
+
+  }
+
+  .smallnav {
+
+    display: none;
+
+  }
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(255, 247, 218);
+
+  }
+
+  .bignav {
+
+    display: none;
+
+  }
+
+  .container-fluid {
+    padding: 0px;
+  }
+
+  #carouselImg {
+    width: 100%;
+    margin: 0;
+    height: 50dvh;
+    object-fit: cover;
+  }
+
+  .cardsection2 {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .card3 {
+    margin: auto;
+    border: none;
+    padding: 0px;
+    /* top: 300px; */
+    background-color: beige;
+    height: auto;
+
+  }
+
+  #imgCard3 {
+    height: 150dvh;
+  }
+
+  .row3 {
+    height: auto;
+    padding-bottom: 0px;
+  }
+
+  .cardbody3 {
+    height: auto;
+  }
+
+  .card-title3 {
+    padding: 20px;
+  }
+
+  .card-text3 {
+    height: auto;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 0px;
+
+
+  }
+  #imgCard6{
+    width: 100%;
+    height: 10dvh;
+    padding: 11px;
+    
+  }
+  .card6{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .card-title6{
+    font-size: 15px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 255, 218);
+  }
+
+  .bignav {
+
+    display: none;
+
+  }
+
+  .cardsection2 {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .card3 {
+
+    border: none;
+    padding: 0px;
+    margin: auto;
+    /* top: 450px; */
+    background-color: beige;
+    height: auto;
+  }
+
+  .card-title3 {
+    padding: 20px;
+  }
+
+  .container-fluid {
+    padding: 0px;
+  }
+
+  #carouselImg {
+    width: 100%;
+    margin: 0;
+    height: 40dvh;
+    object-fit: cover;
+  }
+
+  #imgCard3 {
+    height: 40dvh;
+  }
+
+  .row3 {
+    height: auto;
+    padding-bottom: 0px;
+  }
+
+  .cardbody3 {
+    height: auto;
+  }
+
+  .card-title3 {
+    padding: 20px;
+  }
+
+  .card-text3 {
+    height: 500px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size: 18px;
+    line-height: 1.8rem;
+
+  }
+  #imgCard6{
+    width: 100%;
+    height: 45dvh;
+    padding: 20px;
+    
+  }
+  .card6{
+    width: 100%;
+    position: relative;
+    margin: auto;
+   
+    padding-bottom: 20px;
+  }
+  .col6{
+
+    padding:10px 50px;
+    
+    
+    }
+}
+
+
+
+/* .container-fluid {
+  padding: 30px;
+} */
+
+/* #card-group1 {
+  height: 15rem;
+  margin: auto;
+  object-fit: cover;
+} */
+
+
+/* #carouselExampleSlidesOnly{
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+  } */
+
+/* .text-center{
+  padding:40px;
+} */
+
+/* .card-group1 {
+  padding: 40px;
+
+  border: none;
+  margin: auto;
+  background-color: rgb(249, 205, 92);
+} */
+
+/* .col {
+  border: none;
+} */
+
+
+
+
+/* .col {
+  padding: 40px;
+} */
+
+/* .cardbody3 {} */
+
+
+
+/* 
+ABOUT US */
+
+
+
+
+.fa-brands{
+  padding: 5px;
+  float: right;
+}
+
+.bignavv{
+padding-top: 90px;
+background-color: rgb(241, 238, 196);;
+}
+
+.logocol{
+  padding-left: 20px;
+  width: 250px;
+  height: 30dvh;
+}
+
+#aboutlogo{
+  width: 230px;
+  height: 35dvh;
+}
+
+
+#aboutcard1{
+  width: 100%;
+  margin: 0;
+  height: 60dvh;
+  object-fit: cover;
+}
+#aboutimgcard2{
+
+  border-radius: 50%;
+  height: 30dvh;
+  width: 200px;
+  
+}
+
+
+
+.colcard2{
+  width: 240px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  
+}
+.section4{
+  background: url(/images/400206500723_182490.jpg);
+
+}
+
+.cardtext2{
+  padding-top: 50px;
+  text-align: center;
+}
+#aboutimgcard3{
+  border-radius: 50%;
+  height: 20dvh;
+  width: 150px;
+  margin: auto;
+  
+}
+.slidertext{
+  color: white;
+  margin: auto;
+  line-height: 2rem;
+  padding: 30px;
+  text-align: center;
+}
+.aboutheading2{
+  color: white;
+  text-align: center;
+  line-height: 3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+
+#aboutimgcard5{
+  border-radius: 50%;
+  height: 35dvh;
+  width: 220px; 
+}
+
+.colcard5{
+  width: 240px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+.readmorebtn{
+width: 250px;
+height: 50px;
+margin: auto;
+
+}
+.teams{
+  margin: auto;
+  text-align: center;
+  line-height: 3rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.gallerycol{
+    width: 600px;
+    height: 40dvh;
+    padding: 50px;
+  }
+#galleryimg{
+  width: 100%;
+  height:40dvh;
+  padding: 40px;
+
+}
+
+.card-text1{
+  text-align: center;
+  font-size: 20px;
+  text-align: center;
+}
+.card-title1{
+  font-size: 40px;
+}
+
+@media screen and (min-width: 992px) {
+
+  /* #galleryimg{
+    width: 200px;
+    height: 40dvh;
+    padding: 50px;
+  } */
+
+}
+
+@media screen and (max-width: 992px) {
+  .gallerycol{
+    width: 400px;
+    height: 40dvh;
+    padding: 50px;
+  }
+#galleryimg{
+  width: 100%;
+  height:40dvh;
+  padding: 40px;
+
+}
+.row6{
+  margin: 0;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+  #aboutcard1{
+    width: 100%;
+    margin: 0;
+    height: 30dvh;
+    object-fit: cover;
+  }
+  .card-img-overlay1{
+top: -50px;
+  }
+  .card-title1{
+    font-size: 20px;
+  }
+  .card-text1{
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+  }
+  /* .gallerycol{
+    padding: 60px;
+    width: 200px;
+    height: 40dvh;
+  }
+  #galleryimg{
+    width: 100%;
+    height: 40dvh;
+    
+  } */
+  
+}
+@media screen and (max-width: 400px) {
+  
+}
+
+/*********************** SERVICE ***************************/
+#services{
+  text-align: center;
+  margin: auto;
+  display: block;
+  
+}
+.servicerow1{
+  margin: auto;
+ 
+}
+.servicetext{
+  padding-top: 30px;
+  
+  }
+  .number{
+    display: inline;
+   
+   
+  }
+  .servicestitle{
+    padding-left: 20px;
+    margin-right: 105px;
+    display: inline;
+    text-decoration: underline;
+    text-align: left;
+  
+  }
+#Imgcircle{
+   margin-top: 35px;
+  /* padding: auto; */ 
+width: 300px;
+height: 300px;
+border-radius: 50%;
+border-top-right-radius: 500px;
+border-bottom-right-radius: 500px;
+/* text-align: center;
+justify-content: center;
+align-items: center;
+margin-inline-start: auto;
+margin-inline-end: auto;
+word-wrap: break-word; */
+
+}
+
+/* 
+
+
+.serviceparagraph{
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 48px;
+} */
+/* 
+.servicerow1{
+  margin: auto;
+  margin-inline-start: auto;
+margin-inline-end: auto;
+}
+.servicetext{
+  
+  display: inline;
+
+ 
+  
+  }
+  .number{
+    display: inline;
+   
+   
+  }
+  .servicestitle{
+    /* padding-left: 20px; */
+    /* margin-right: 100px; */
+    /* display: inline;
+    text-decoration: underline;
+    text-align: left;
+  
+  } */
+  /* .serviceparagraph{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 48px;
+  }
+  .servicetext2{
+    float: right;
+    padding-left: 40px;
+  } */
+  
