@@ -375,7 +375,7 @@ h2 {
     margin: auto;
     border: none;
     padding: 0px;
-    /* top: 300px; */
+    margin-top: 300px;
     background-color: beige;
     height: auto;
 
@@ -450,7 +450,7 @@ h2 {
     border: none;
     padding: 0px;
     margin: auto;
-    /* top: 450px; */
+    margin-top: 700px;
     background-color: beige;
     height: auto;
   }
