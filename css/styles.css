@@ -135,13 +135,26 @@ img {
 }
 
 .badge-gold {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: max-content;
+  align-self: flex-start;
   background-color: var(--gold-soft);
   color: var(--olive-accent);
   font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.w-fit {
+  width: fit-content !important;
+  max-width: max-content !important;
+  align-self: flex-start !important;
 }
 
 /* ==========================================================================
@@ -187,8 +200,8 @@ img {
 .danifas-topbar {
   background-color: var(--bg-dark);
   color: #D3D7E0;
-  font-size: 0.85rem;
-  padding: 8px 0;
+  font-size: 0.82rem;
+  padding: 7px 0;
   border-bottom: 1px solid var(--border-light);
 }
 
@@ -203,19 +216,19 @@ img {
 .danifas-topbar .contact-item {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  margin-right: 20px;
+  gap: 7px;
 }
 
 .danifas-topbar .social-links a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.08);
   margin-left: 6px;
+  font-size: 0.8rem;
   transition: var(--transition);
 }
 
@@ -229,7 +242,7 @@ img {
    ========================================================================== */
 .main-navbar {
   background-color: #FFFFFF;
-  padding: 12px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--border-color);
   transition: var(--transition);
   z-index: 1020;
@@ -237,13 +250,14 @@ img {
 
 .main-navbar.scrolled {
   box-shadow: var(--shadow-md);
-  padding: 8px 0;
+  padding: 7px 0;
 }
 
 .navbar-brand-logo {
-  height: 60px;
+  height: 52px;
   width: auto;
   object-fit: contain;
+  transition: var(--transition);
 }
 
 .nav-link {
@@ -472,11 +486,12 @@ img {
 .feature-card-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.3) 60%, transparent 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 30px;
+  align-items: flex-start;
+  padding: 24px;
   color: #FFFFFF;
 }
 
@@ -1208,19 +1223,59 @@ img {
 
 @media (max-width: 767.98px) {
   .danifas-topbar {
-    text-align: center;
+    padding: 6px 0;
+    font-size: 0.78rem;
   }
-  
+
+  .danifas-topbar .container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .danifas-topbar .contact-item {
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+
   .danifas-topbar .social-links {
-    margin-top: 6px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .danifas-topbar .social-links a {
+    width: 24px;
+    height: 24px;
+    font-size: 0.72rem;
+    margin-left: 3px;
+  }
+
+  .main-navbar {
+    padding: 8px 0;
+  }
+
+  .navbar-brand-logo {
+    height: 44px;
+  }
+
+  .navbar-toggler {
+    padding: 4px 8px !important;
+  }
+
+  .navbar-toggler i {
+    font-size: 1.5rem !important;
   }
 
   .hero-slide {
-    min-height: 400px;
+    min-height: 380px;
+    height: 50vh;
   }
 
   .hero-title {
-    font-size: 1.75rem;
+    font-size: 1.65rem;
   }
 
   .story-card-body {
